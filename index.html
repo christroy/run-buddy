@@ -1,44 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
-        <meta charset="UTF-8"/>
-        <title>Run Buddy</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <header>
-            <h1>
-              <a href="/">RUN BUDDY</a>
-            </h1>
-            <nav>
-              <ul>
-                <li>
-                  <a href="#what-we-do">What We Do</a>
-                </li>
-                <li>
-                  <a href="#what-you-do">What You Do</a>
-                </li>
-                <li>
-                  <a href="#your-trainers">Your Trainers</a>
-                </li>
-                <li>
-                  <a href="#reach-out">Reach Out</a>
-                </li>
-              </ul>
-            </nav>
-          </header>
-    <body>
-       
-       </header>
-       <!--hero/jumbotron-->
-       <section>
+<head>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8" />
+  <title>CODE OR DIE!</title>
+  <!-- Add this to the page and see what happens! -->
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <h1>
+        <a href="/Users/POLYMATH/Code/Run-Buddy/run-buddy/assets/css/style.css">University of Texas at Austin</a>
+    </h1>
+    <nav>
+      <!-- Unordered List -->
+      <ul>
+        <!-- List Item Tag-->
+        <li>
+          <!-- Embedded Anchor Tags -->
+          <a href="#what-we-do">What We Do</a>
+        </li>
+        <li>
+          <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+          <a href="#your-trainers">Your Trainers</a>
+        </li>
+        <li>
+          <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-form">
+      <h3>Let's Get Started Right Now!</h3>
+      <p>Fill out this form and one of our UT Admissions Consultants will schedule a consultation.</p>
+      <form>
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" />
+        <label for="email">Enter email address:</label>
+        <input type="text" placeholder="Email Address" name="email" id="email" />
+        <label for="phone">Enter a telephone number:</label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+        <p>
+          Have you worked out with a mac before?
+          <input type="radio" name="trainer-confirm" id="trainer-yes" />
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no" />
+          <label for="trainer-no">No</label>
+        </p>
+        <p>
+          <label for="checkbox">
+            Please Show that You Are at least 18 years of age.
+          </label>
+          <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <button type="submit">
+          Exploit Quantum Vectors!
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- end hero -->
+  <!-- hero/jumbotron -->
 
-       </section>
-
-
-       
-       
-
-       <footer>
-    </footer>
+  <!-- "what we do" section -->
+  <section id="what-we-do" class="intro">
+    <h2 class="section-title primary-border">What I AM Doing</h2>
+    <div>This is a very long project with little to no direction 
+        from the module on how to complete the project effectively and eloquently.</div>
+    <div>
+      <!-- Image with link -->
+      <img src="images\step-1.svg" alt="" />
+      <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+      <p>You're already here at UT School, so why not?</p>
     
-    </body>
-</html>
+        <!-- Image with link -->
+        <img src="images\step-2.svg" alt="" />
+        <h3>Step 2: <span>Consult with One of Our UT Admissions Representatives.</span></h3>
+        <p>Are you here to gain admission to UT Austin?</p>
+      </div>
+      <div>
+        <!-- Image with link -->
+        <img src="images\Clark.jpg" alt="" />
+        <h3>Step 3: <span>UT BOOTCAMP PROGRAM</span></h3>
+        <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+      </div>
+      <div>
+        <!-- Image with link -->
+        <img src="images\step-4.svg" alt="" />
+        <h3>Step 4: <span>See Results.</span></h3>
+        <p>Bi-weekly checkins with your Trainer</p>
+      </div>
+    </div>
+  </section>
+  <section id="what-you-do" class="steps">
+    <h2 class="section-title secondary-border">CALL ME PAPI!</h2>
+  </section>
+  <!-- "meet the trainers" section -->
+  <section id="your-trainers" class="trainers">
+    <h2 class="section-title primary-border">
+      MY EMPIRE
+    </h2>
+    <article class="trainer text-left">
+      <!-- Image with link -->
+      <img src="https://www.success.edu/wp-content/uploads/2014/04/north-west-college-health-care-careers-professional-fitness-trainer.jpg" alt="Arron Stephens in his workout clothes, but really just there for the girl..." />
+      <div class="trainer-bio">
+        <h3>Arron S.</h3>
+        <h4>Former Miss Universe</h4>
+        <p>
+          My Baby Mother Who Is American minus-size model!
+        </p>
+      </div>
+    </article>
+    <!-- second trainer bio -->
+    <article class="trainer">
+      <div class="trainer-bio text-right">
+        <h3>My baby-back, baby-back, baby-back Ribs are Cracking ME Up</h3>
+        <h4>Endurance- that's what she said</h4>
+        <p>
+          Challenges in This Course
+          Challenge Types
+          There are two types of challenges in this course. Each one is designed to SCREW you for a scenario that
+          you're likely to encounter as a VICTIM.
+          
+          The two types of challenges are the following:
+          On-the-job ticket or feature request challenges give you starter code in a folder called Develop, which you'll
+          modify to complete the challenge. Odd-numbered modules follow this format.
+          Job-seeking coding assessments or take-home assignments do not provide starter code. You’ll build these from
+          scratch. Even-numbered modules follow this format.!
+        </p>
+      </div>
+      <!-- Image with link -->
+      <img src="https://www.precor.com/sites/default/files/Tonya.JPG" alt="Cooling off after a workout" />
+    </article>
+    <!-- third trainer bio -->
+    <article class="trainer">
+      <!-- Image with link -->
+      <img src="" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+      <div class="trainer-bio text-left">
+        <h3>Austin M.</h3>
+        <h4>Wisdom Is Understanding a Polymath PLEASE</h4>
+        <p>and then they say, 'Gosh, it's Marilyn Monroe!'!Family is the most important thing in the world.
+          Only do what your heart tells you.
+          I like to be a free spirit. Some don't like that, but that's the way I am.
+        </p>
+      </div>
+    </article>
+  </section>
